@@ -58,3 +58,15 @@
     reader.readAsDataURL(event.target.files[0]);
   }
 </script>
+
+
+
+## dd
+
+
+
+request.FILES['filename'].name
+
+
+for filename, file in request.FILES.iteritems():
+    name = request.FILES[filename].name
